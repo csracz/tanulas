@@ -1,0 +1,2 @@
+# tanulas
+full stack tanulás
