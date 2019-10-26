@@ -21,3 +21,18 @@ Készítsünk egy (továbbfejleszthető) oktató alkalmazást, ahova
 - oktatók tudnak tanfolyamokat feltölteni, valamint
 - hallgatók tudnak ilyen tanfolyamokat elvégezni
 Ez egy jól áttekinthető, mégis kellően összetett feladat, ahol a full-stack C# fejlesztés minden részébe bepillanthatunk, immár a profi fejlesztő szemével.
+
+## Objektumorientált tervezési gondolatok (OOD)
+Csatolás (Coupling): ha egy elem függ más elemektől, akkor ezek az elemek csatolásban vannak.
+gyenge (Low) ez a csatolás abban az esetben, ha a csatolásban lévő elemek esetén egy változás továbbterjedése megállítható.
+Első célunk tehát: a gyenge csatolás (Low Coupling) elérése a dobozaink között.
+
+Kohézió (Cohesion): Egy elem felelősségeinek egymáshoz való kapcsolata.
+a kohézió gyenge (low), ha az adott elemnek túl sok egymástól független felelőssége van.
+a kohézió erős (high), ha az adott elem felelősségei erősen összefüggnek és nagyon koncentráltak.
+Célunk tehát az Erős kohézió (High Cohesion) elérése a dobozokon belül.
+
+Költségek (vajon megéri?)
+Függ a rendelkezésre álló erőforrás mértékétől.
+Függ a rendelkezésre álló időtől is.
+És leginkább az alkalmazás élettartamától függ.
